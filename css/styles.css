@@ -1,3 +1,7 @@
+/*                ТЗ на доделование
+ раставить каментарии к секциям на странице по типу
+============== body ============= */
+
 :root {
   --first-black-color: #212121;
   --secondary-black-color: #757575;
@@ -37,7 +41,7 @@ ul {
 .logo-header {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -46,7 +50,7 @@ ul {
   color: var(--white-color);
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -60,6 +64,13 @@ ul {
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+.link_active {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.333;
+  letter-spacing: 0.02em;
+  color: var(--blue-secondary-color);
 }
 
 .link:hover,
@@ -92,7 +103,7 @@ ul {
   background-color: var(--blue-secondary-color);
 }
 .heading {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -103,7 +114,7 @@ ul {
 
 .text {
   color: var(--secondary-black-color);
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
@@ -119,7 +130,7 @@ footer {
   line-height: 1.8;
 }
 .link-contacts {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -135,7 +146,7 @@ footer {
   background: var(--blue-secondary-color);
   color: var(--white-color);
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
   text-align: center;
@@ -149,7 +160,7 @@ footer {
 }
 .feature-paragraph {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -157,7 +168,7 @@ footer {
 }
 .index-heading {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -172,7 +183,7 @@ footer {
 }
 .crewman-profession {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
